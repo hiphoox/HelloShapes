@@ -54,6 +54,11 @@
     SCNNode *sphereNode = [SCNNode nodeWithGeometry:sphereGeom];
     sphereNode.position = SCNVector3Make(3.0, 0.0, 0.0);
     [root addChildNode:sphereNode];
+
+    // Turn on the lights!
+    SCNLight *light = [SCNLight light];
+    light.type = SCNLightTypeDirectional;
+    root.light = light;
 }
 
 @end
