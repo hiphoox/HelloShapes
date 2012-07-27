@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'HelloCubes' target in the 'HelloCubes' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

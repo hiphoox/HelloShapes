@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEA8BF9A15C0DA7700B98B67 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA8BF9915C0DA7700B98B67 /* Cocoa.framework */; };
+		CEA8BFA415C0DA7700B98B67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEA8BFA215C0DA7700B98B67 /* InfoPlist.strings */; };
+		CEA8BFA615C0DA7700B98B67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA8BFA515C0DA7700B98B67 /* main.m */; };
+		CEA8BFAA15C0DA7700B98B67 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CEA8BFA815C0DA7700B98B67 /* Credits.rtf */; };
+		CEA8BFAD15C0DA7800B98B67 /* BNRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA8BFAC15C0DA7800B98B67 /* BNRAppDelegate.m */; };
+		CEA8BFB015C0DA7800B98B67 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA8BFAE15C0DA7800B98B67 /* MainMenu.xib */; };
+		CEA8BFB715C0DAAC00B98B67 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA8BFB615C0DAAC00B98B67 /* SceneKit.framework */; };
+		CEA8BFBC15C0E30700B98B67 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA8BFBB15C0E30700B98B67 /* QuartzCore.framework */; };
+		CEA8BFBE15C0E58D00B98B67 /* bnr_hat_only.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA8BFBD15C0E58D00B98B67 /* bnr_hat_only.png */; };
+		CEC27E6415C2A10E00B9B0A3 /* BNRHelloShapesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC27E6315C2A10E00B9B0A3 /* BNRHelloShapesViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEA8BF9515C0DA7700B98B67 /* HelloShapes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloShapes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA8BF9915C0DA7700B98B67 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CEA8BF9C15C0DA7700B98B67 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CEA8BF9D15C0DA7700B98B67 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CEA8BF9E15C0DA7700B98B67 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEA8BFA115C0DA7700B98B67 /* HelloShapes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloShapes-Info.plist"; sourceTree = "<group>"; };
+		CEA8BFA315C0DA7700B98B67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEA8BFA515C0DA7700B98B67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEA8BFA715C0DA7700B98B67 /* HelloShapes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloShapes-Prefix.pch"; sourceTree = "<group>"; };
+		CEA8BFA915C0DA7700B98B67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CEA8BFAB15C0DA7700B98B67 /* BNRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRAppDelegate.h; sourceTree = "<group>"; };
+		CEA8BFAC15C0DA7800B98B67 /* BNRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRAppDelegate.m; sourceTree = "<group>"; };
+		CEA8BFAF15C0DA7800B98B67 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CEA8BFB615C0DAAC00B98B67 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		CEA8BFBB15C0E30700B98B67 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CEA8BFBD15C0E58D00B98B67 /* bnr_hat_only.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bnr_hat_only.png; sourceTree = "<group>"; };
+		CEC27E6215C2A10E00B9B0A3 /* BNRHelloShapesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRHelloShapesViewController.h; sourceTree = "<group>"; };
+		CEC27E6315C2A10E00B9B0A3 /* BNRHelloShapesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRHelloShapesViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEA8BF9215C0DA7700B98B67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA8BFBC15C0E30700B98B67 /* QuartzCore.framework in Frameworks */,
+				CEA8BFB715C0DAAC00B98B67 /* SceneKit.framework in Frameworks */,
+				CEA8BF9A15C0DA7700B98B67 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEA8BF8A15C0DA7700B98B67 = {
+			isa = PBXGroup;
+			children = (
+				CEA8BF9F15C0DA7700B98B67 /* HelloShapes */,
+				CEA8BF9815C0DA7700B98B67 /* Frameworks */,
+				CEA8BF9615C0DA7700B98B67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEA8BF9615C0DA7700B98B67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEA8BF9515C0DA7700B98B67 /* HelloShapes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEA8BF9815C0DA7700B98B67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEA8BF9915C0DA7700B98B67 /* Cocoa.framework */,
+				CEA8BFB615C0DAAC00B98B67 /* SceneKit.framework */,
+				CEA8BFBB15C0E30700B98B67 /* QuartzCore.framework */,
+				CEA8BF9B15C0DA7700B98B67 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEA8BF9B15C0DA7700B98B67 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEA8BF9C15C0DA7700B98B67 /* AppKit.framework */,
+				CEA8BF9D15C0DA7700B98B67 /* CoreData.framework */,
+				CEA8BF9E15C0DA7700B98B67 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CEA8BF9F15C0DA7700B98B67 /* HelloShapes */ = {
+			isa = PBXGroup;
+			children = (
+				CEA8BFAB15C0DA7700B98B67 /* BNRAppDelegate.h */,
+				CEA8BFAC15C0DA7800B98B67 /* BNRAppDelegate.m */,
+				CEA8BFAE15C0DA7800B98B67 /* MainMenu.xib */,
+				CEA8BFBD15C0E58D00B98B67 /* bnr_hat_only.png */,
+				CEC27E6215C2A10E00B9B0A3 /* BNRHelloShapesViewController.h */,
+				CEC27E6315C2A10E00B9B0A3 /* BNRHelloShapesViewController.m */,
+				CEA8BFA015C0DA7700B98B67 /* Supporting Files */,
+			);
+			path = HelloShapes;
+			sourceTree = "<group>";
+		};
+		CEA8BFA015C0DA7700B98B67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEA8BFA115C0DA7700B98B67 /* HelloShapes-Info.plist */,
+				CEA8BFA215C0DA7700B98B67 /* InfoPlist.strings */,
+				CEA8BFA515C0DA7700B98B67 /* main.m */,
+				CEA8BFA715C0DA7700B98B67 /* HelloShapes-Prefix.pch */,
+				CEA8BFA815C0DA7700B98B67 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEA8BF9415C0DA7700B98B67 /* HelloShapes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA8BFB315C0DA7800B98B67 /* Build configuration list for PBXNativeTarget "HelloShapes" */;
+			buildPhases = (
+				CEA8BF9115C0DA7700B98B67 /* Sources */,
+				CEA8BF9215C0DA7700B98B67 /* Frameworks */,
+				CEA8BF9315C0DA7700B98B67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloShapes;
+			productName = HelloCubes;
+			productReference = CEA8BF9515C0DA7700B98B67 /* HelloShapes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEA8BF8C15C0DA7700B98B67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BNR;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Big Nerd Ranch, Inc";
+			};
+			buildConfigurationList = CEA8BF8F15C0DA7700B98B67 /* Build configuration list for PBXProject "HelloShapes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEA8BF8A15C0DA7700B98B67;
+			productRefGroup = CEA8BF9615C0DA7700B98B67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEA8BF9415C0DA7700B98B67 /* HelloShapes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEA8BF9315C0DA7700B98B67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA8BFA415C0DA7700B98B67 /* InfoPlist.strings in Resources */,
+				CEA8BFAA15C0DA7700B98B67 /* Credits.rtf in Resources */,
+				CEA8BFB015C0DA7800B98B67 /* MainMenu.xib in Resources */,
+				CEA8BFBE15C0E58D00B98B67 /* bnr_hat_only.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEA8BF9115C0DA7700B98B67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA8BFA615C0DA7700B98B67 /* main.m in Sources */,
+				CEA8BFAD15C0DA7800B98B67 /* BNRAppDelegate.m in Sources */,
+				CEC27E6415C2A10E00B9B0A3 /* BNRHelloShapesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEA8BFA215C0DA7700B98B67 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA8BFA315C0DA7700B98B67 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEA8BFA815C0DA7700B98B67 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA8BFA915C0DA7700B98B67 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CEA8BFAE15C0DA7800B98B67 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA8BFAF15C0DA7800B98B67 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEA8BFB115C0DA7800B98B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CEA8BFB215C0DA7800B98B67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CEA8BFB415C0DA7800B98B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloShapes/HelloShapes-Prefix.pch";
+				INFOPLIST_FILE = "HelloShapes/HelloShapes-Info.plist";
+				PRODUCT_NAME = HelloShapes;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEA8BFB515C0DA7800B98B67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloShapes/HelloShapes-Prefix.pch";
+				INFOPLIST_FILE = "HelloShapes/HelloShapes-Info.plist";
+				PRODUCT_NAME = HelloShapes;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEA8BF8F15C0DA7700B98B67 /* Build configuration list for PBXProject "HelloShapes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA8BFB115C0DA7800B98B67 /* Debug */,
+				CEA8BFB215C0DA7800B98B67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA8BFB315C0DA7800B98B67 /* Build configuration list for PBXNativeTarget "HelloShapes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA8BFB415C0DA7800B98B67 /* Debug */,
+				CEA8BFB515C0DA7800B98B67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEA8BF8C15C0DA7700B98B67 /* Project object */;
+}
