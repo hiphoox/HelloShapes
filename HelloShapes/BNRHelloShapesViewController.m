@@ -8,6 +8,8 @@
 
 #import "BNRHelloShapesViewController.h"
 
+#import <SceneKit/SceneKit.h>
+
 @interface BNRHelloShapesViewController ()
 
 @end
@@ -22,6 +24,12 @@
     }
     
     return self;
+}
+
+- (void)awakeFromNib
+{
+    SCNView *sceneView = (SCNView *)self.view;
+    sceneView.backgroundColor = [NSColor blueColor];
 }
 
 @end
