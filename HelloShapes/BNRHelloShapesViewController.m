@@ -66,6 +66,12 @@
     startAnim.fromValue = @0.0;
     startAnim.toValue = @1.0;
     [root addAnimation:startAnim forKey:@"fadeIn"];
+    
+    // Add the hat image
+    NSImage *img = [NSImage imageNamed:@"bnr_hat_only.png"];
+    cubeNode.geometry.firstMaterial.diffuse.contents = img;
+    cylNode.geometry.firstMaterial.diffuse.contents = img;
+    sphereNode.geometry.firstMaterial.diffuse.contents = img;
 }
 
 @end
