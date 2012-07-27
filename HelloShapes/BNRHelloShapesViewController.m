@@ -30,6 +30,18 @@
 {
     SCNView *sceneView = (SCNView *)self.view;
     sceneView.backgroundColor = [NSColor blueColor];
+
+    // Create the scene and get the root
+    sceneView.scene = [SCNScene scene];
+    SCNNode *root = sceneView.scene.rootNode;
+    
+    // Create the cube geometry and node
+    SCNBox *cubeGeom = [SCNBox boxWithWidth:1.0
+                                     height:1.0
+                                     length:1.0
+                              chamferRadius:0.0];
+    SCNNode *cubeNode = [SCNNode nodeWithGeometry:cubeGeom];
+    [root addChildNode:cubeNode];
 }
 
 @end
