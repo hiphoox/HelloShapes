@@ -42,6 +42,18 @@
                               chamferRadius:0.0];
     SCNNode *cubeNode = [SCNNode nodeWithGeometry:cubeGeom];
     [root addChildNode:cubeNode];
+
+    // Add cylinder
+    SCNCylinder *cylGeom = [SCNCylinder cylinderWithRadius:0.5 height:1.0];
+    SCNNode *cylNode = [SCNNode nodeWithGeometry:cylGeom];
+    cylNode.position = SCNVector3Make(1.5, 0.0, 0.0);
+    [root addChildNode:cylNode];
+    
+    // Add sphere
+    SCNSphere *sphereGeom = [SCNSphere sphereWithRadius:0.5];
+    SCNNode *sphereNode = [SCNNode nodeWithGeometry:sphereGeom];
+    sphereNode.position = SCNVector3Make(3.0, 0.0, 0.0);
+    [root addChildNode:sphereNode];
 }
 
 @end
