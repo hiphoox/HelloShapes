@@ -72,6 +72,31 @@
     cubeNode.geometry.firstMaterial.diffuse.contents = img;
     cylNode.geometry.firstMaterial.diffuse.contents = img;
     sphereNode.geometry.firstMaterial.diffuse.contents = img;
+    
+    self.view.nextResponder = self;
+}
+
+- (void)mouseDown:(NSEvent *)theEvent
+{
+    NSPoint winp = [theEvent locationInWindow];
+    NSPoint p = [self.view convertPoint:winp fromView:nil];
+    
+    CGPoint p2 = CGPointMake(p.x, p.y);
+    NSArray *pts = [(SCNView *)self.view hitTest:p2 options:@{}];
+    for (SCNHitTestResult *result in pts) {
+        SCNNode *n = result.node;
+        
+        CAKeyframeAnimation *jumpAnim = [CAKeyframeAnimation animationWithKeyPath:@"position"];
+        float x = n.position.x;
+        jumpAnim.duration = 0.75;
+        jumpAnim.values = @[
+            [NSValue valueWithSCNVector3:SCNVector3Make(x, 0.0, 0.0)],
+            [NSValue valueWithSCNVector3:SCNVector3Make(x, 1.5, 0.0)],
+            [NSValue valueWithSCNVector3:SCNVector3Make(x, 0.0, 0.0)]
+        ];
+        jumpAnim.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
+        [n addAnimation:jumpAnim forKey:@"jump"];
+    }
 }
 
 @end
