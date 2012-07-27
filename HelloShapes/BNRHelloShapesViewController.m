@@ -59,6 +59,13 @@
     SCNLight *light = [SCNLight light];
     light.type = SCNLightTypeDirectional;
     root.light = light;
+
+    // Fade in the objects
+    CABasicAnimation *startAnim = [CABasicAnimation animationWithKeyPath:@"opacity"];
+    startAnim.duration = 1.0;
+    startAnim.fromValue = @0.0;
+    startAnim.toValue = @1.0;
+    [root addAnimation:startAnim forKey:@"fadeIn"];
 }
 
 @end
